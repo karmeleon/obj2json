@@ -14,3 +14,8 @@ Features
 ========
 
 Supports (x,y,z) vertices, (x,y,z) normals, (x,y) texture coords, and basic triangular faces. It is by no means a complete implementation of the .obj standard, but it should be enough for basic WebGL stuff.
+
+License
+=======
+
+This tool is released under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
