@@ -10,7 +10,7 @@ fs.readFile(__dirname + '/' + inputfile, function(err, data) {
 		console.log(err);
 	var input = data.toString();
 
-	var lines = input.split("\r\n");
+	var lines = input.split(/\r\n|\r|\n/g);
 	var out = {};
 	out.vertexPositions = [];
 	out.vertexNormals = [];
